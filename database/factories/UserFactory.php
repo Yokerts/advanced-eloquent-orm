@@ -14,12 +14,25 @@ use Faker\Generator as Faker;
 |
 */
 
-$factory->define(App\User::class, function (Faker $faker) {
+$factory->define(AdvancedELOQUENT\User::class, function (Faker $faker) {
     return [
+        'name' => $faker->name,
+        'email' => $faker->email,
+        'password' => bcrypt(str_random(10)),
+        'remember_token' => str_random(10),
+    ];
+    /*return [
         'name' => $faker->name,
         'email' => $faker->unique()->safeEmail,
         'email_verified_at' => now(),
         'password' => '$2y$10$TKh8H1.PfQx37YgCzwiKb.KjNyWgaHb9cbcoQgdIVFlYg7B77UdFm', // secret
         'remember_token' => Str::random(10),
+    ];*/
+});
+
+$factory->define(AdvancedELOQUENT\Book::class, function (Faker $faker){
+    return [
+        'title' => $faker->name,
+        'description' => $faker->text,
     ];
 });

@@ -30,10 +30,10 @@
     26 => 'Laravel\\Tinker\\TinkerServiceProvider',
     27 => 'Carbon\\Laravel\\ServiceProvider',
     28 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
-    29 => 'App\\Providers\\AppServiceProvider',
-    30 => 'App\\Providers\\AuthServiceProvider',
-    31 => 'App\\Providers\\EventServiceProvider',
-    32 => 'App\\Providers\\RouteServiceProvider',
+    29 => 'AdvancedELOQUENT\\Providers\\AppServiceProvider',
+    30 => 'AdvancedELOQUENT\\Providers\\AuthServiceProvider',
+    31 => 'AdvancedELOQUENT\\Providers\\EventServiceProvider',
+    32 => 'AdvancedELOQUENT\\Providers\\RouteServiceProvider',
   ),
   'eager' => 
   array (
@@ -52,10 +52,10 @@
     12 => 'Illuminate\\Notifications\\NexmoChannelServiceProvider',
     13 => 'Illuminate\\Notifications\\SlackChannelServiceProvider',
     14 => 'Carbon\\Laravel\\ServiceProvider',
-    15 => 'App\\Providers\\AppServiceProvider',
-    16 => 'App\\Providers\\AuthServiceProvider',
-    17 => 'App\\Providers\\EventServiceProvider',
-    18 => 'App\\Providers\\RouteServiceProvider',
+    15 => 'AdvancedELOQUENT\\Providers\\AppServiceProvider',
+    16 => 'AdvancedELOQUENT\\Providers\\AuthServiceProvider',
+    17 => 'AdvancedELOQUENT\\Providers\\EventServiceProvider',
+    18 => 'AdvancedELOQUENT\\Providers\\RouteServiceProvider',
   ),
   'deferred' => 
   array (

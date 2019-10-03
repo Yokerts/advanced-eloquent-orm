@@ -11,8 +11,6 @@
 |
 */
 
-use 
-
 Route::get('/', function () {
     return AdvancedELOQUENT\Book::all();
 });
